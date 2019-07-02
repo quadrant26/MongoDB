@@ -25,7 +25,7 @@ var workmate2 = {
 var workmate3 = {
     name: 'hanmeimei',
     age: '26',
-    sex: 0,
+    sex: 1,
     job: 'UI',
     skill: {
         skillOne: 'photoshop',
