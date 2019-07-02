@@ -392,6 +392,9 @@ db.version()
 
 14. 索引
 
+    查看数据中的数据条数
+    db.randomInfo.stats()
+
     a. 建立索引
 
         db.randomInfo.ensureIndex({username:1})
