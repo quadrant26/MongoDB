@@ -483,10 +483,11 @@ db.version()
 
         重启MongoDB服务器，然后设置必须使用建权登录
         mongod --auth
+        mongod --auth --dbpath dbpath
 
     g. 登录
 
-        mongom  -u jspang -p 123456 127.0.0.1:27017/admin
+        mongo  -u jspang -p 123456 127.0.0.1:27017/admin
 
 16. 管理：备份和还原
 
